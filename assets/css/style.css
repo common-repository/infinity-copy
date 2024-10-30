@@ -1,0 +1,175 @@
+/* Style */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');
+* {
+box-sizing: border-box;
+}
+body {
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+color: #555d6a;
+font-size: 14px;
+}
+nav {
+    background: #fff;
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.1));
+    width: 100%;
+    padding: 20px 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+nav h1 {
+    font-size: 16px;
+    margin-left: 20px;
+}
+nav img {
+    max-width: 60px;
+}
+h1, h2, h3, h4 {
+    color: #16145d;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h2 {
+    font-size: 26px;
+}
+.h2Subtitle {
+    font-size: 15px;
+}
+.container {
+    padding: 0 30px;
+}
+.titleContainer {
+    width: 100%;
+    display: block;
+    padding: 50px 0;
+}
+@media only screen and (max-width: 960px) {
+    .titleContainer {
+        text-align: center;
+    }
+}
+.flexContainer {
+    display: flex;
+    width: 100%;
+}
+@media only screen and (max-width: 960px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+}
+.left {
+    width: 50%;
+    padding: 0 15px 0 0;
+}
+@media only screen and (max-width: 960px) {
+    .left {
+        width: 100%;
+        padding: 0;
+    }
+}
+.right {
+    width: 50%;
+    padding: 0 0 0 15px;
+}
+@media only screen and (max-width: 960px) {
+    .right {
+        width: 100%;
+        padding: 0;
+    }
+}
+.boxIntegration {
+    border: 1px solid #eceef1;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    padding: 60px;
+}
+.boxIntegration .login {
+    border-bottom: 1px solid #eceef1;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+}
+.boxIntegration h3 {
+    font-size: 18px;
+}
+.boxIntegration.active h3 {
+    color: #4bbb8a;
+}
+.boxIntegration span {
+    background: #f0f0f0;
+    padding: 5px 10px;
+    display: block;
+    border-radius: 5px;
+}
+.boxIntegration .button {
+    appearance: button;
+    backface-visibility: hidden;
+    border-radius: 6px;
+    border-width: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 100%;
+    height: 44px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all 0.2s, box-shadow 0.08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+}
+.boxIntegration .button.buttonRed {
+    background-color: #ef0860;
+}
+.boxIntegration .button.buttonRed:hover {
+    color: #fff;
+}
+.boxIntegration .button.buttonBlue {
+    background-color: #1034f1;
+}
+.boxIntegration .button.buttonBlue:hover {
+    color: #fff;
+}
+.boxIntegration .button.buttonBlueLine {
+    background-color: #fff;
+    border: 1px solid #1034f1;
+    color: #1034f1;
+}
+.boxIntegration .button.buttonBlueLine:hover {
+    color: #1034f1;
+}
+.boxIntegration .button:disabled {
+    cursor: default;
+}
+.boxIntegration .button:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.video {
+    aspect-ratio: 1.7777777778;
+    width: 100%;
+}
